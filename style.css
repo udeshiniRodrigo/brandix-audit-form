@@ -1,0 +1,64 @@
+/* Your CSS styles will go here */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.audit-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.audit-info table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.audit-info table th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+.required-documents ul {
+    list-style: none;
+    padding: 0;
+}
+
+.defect-table table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.defect-table table th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+.buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+/* Add more CSS styles as needed */
